@@ -1,0 +1,5 @@
+n=input()
+ededler=[int(i) for i in input().split()]
+
+a=sorted(ededler)
+print(*a)
