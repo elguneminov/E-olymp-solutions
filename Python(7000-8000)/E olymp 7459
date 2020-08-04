@@ -1,0 +1,8 @@
+a=input()
+b=int(a)//10000
+c=int(a)%1000//100
+d=int(a)%10
+if(a[0]=='-'):
+    print(str(int(a[1])*int(a[3])*int(a[5])))
+elif(a[0]!='-'):
+    print(b*c*d)
